@@ -36,7 +36,7 @@ exports.loginController = (req, res) => {
     }
 
     // get input
-    const { username, password } = req.body;
+    const { username, password } = req.body; // similar to req.body.username, req.body.password
 
     res.status(200).json({
       message: "Login success",
